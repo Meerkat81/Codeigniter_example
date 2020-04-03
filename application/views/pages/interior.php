@@ -1,3 +1,8 @@
+<!--
+Name: Casey Meurer
+Coding 07
+Purpose: interior photo gallery
+-->
 <div class="row">
     <div class="col-lg-4">
         <img src="assets/images/int0.jpg" class="img-fluid">

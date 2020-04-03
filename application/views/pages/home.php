@@ -1,3 +1,8 @@
+<!--
+Name: Casey Meurer
+Coding 07
+Purpose: home page
+-->
 <div class="row">
     <div class="col-lg-4">
         <h1>Fox Body Mustang</h1>
