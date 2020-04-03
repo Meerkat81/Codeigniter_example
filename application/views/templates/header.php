@@ -26,9 +26,9 @@ Purpose: Header template
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav">
                     <a href="#" class="nav-item nav-link active">Home</a>
-                    <a href="#" class="nav-item nav-link">Exterior</a>
+                    <a href="exterior" class="nav-item nav-link">Exterior</a>
                     <a href="#" class="nav-item nav-link">Interior</a>
-                    <a href="#" class="nav-item nav-link">Specs</a>
+                    <a href="specs" class="nav-item nav-link">Specs</a>
                 </div>
             </div>
         </div>
