@@ -14,13 +14,13 @@ Purpose: exterior photo carousel
     <!-- Wrapper for carousel items -->
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="../../../assets/images/iu-9.jpeg" alt="First Slide" class="img-fluid">
+            <img src="assets/images/iu-9.jpeg" alt="First Slide" class="img-fluid">
         </div>
         <div class="carousel-item">
-            <img src="../../../assets/images/iu-10.jpeg" alt="Second Slide" class="img-fluid">
+            <img src="assets/images/iu-10.jpeg" alt="Second Slide" class="img-fluid">
         </div>
         <div class="carousel-item">
-            <img src="../../../assets/images/iu-12.jpeg" alt="Third Slide" class="img-fluid">
+            <img src="assets/images/iu-12.jpeg" alt="Third Slide" class="img-fluid">
         </div>
     </div>
     <!-- Carousel controls -->

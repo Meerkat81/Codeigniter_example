@@ -4,7 +4,7 @@
         <h2>American Classic</h2>
     </div>
     <div class="col-lg-4">
-        <img src="../../../assets/images/home.jpeg" class="img-fluid">
+        <img src="assets/images/home.jpeg" class="img-fluid">
     </div>
     <div class="col-lg-4"
         <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna

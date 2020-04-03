@@ -13,8 +13,8 @@ Purpose: Header template
 
 
         <title><?= $title ?></title>
-        <link href="../../../assets/css/main.css" type="text/css" rel="stylesheet" />
-        <link href="../../../assets/css/bootstrap.min.css" type="text/css" rel="stylesheet">
+        <link href="assets/css/main.css" type="text/css" rel="stylesheet" />
+        <link href="assets/css/bootstrap.min.css" type="text/css" rel="stylesheet">
     </head>
     <body>
     <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-3">
