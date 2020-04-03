@@ -12,7 +12,7 @@ Purpose: Header template
 
 
 
-        <title>CodeIgniter Tutorial</title>
+        <title><?= $title ?></title>
         <link href="../../../assets/css/main.css" type="text/css" rel="stylesheet" />
         <link href="../../../assets/css/bootstrap.min.css" type="text/css" rel="stylesheet">
     </head>
