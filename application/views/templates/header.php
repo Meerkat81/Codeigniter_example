@@ -29,6 +29,7 @@ Purpose: Header template
                     <a href="exterior" class="nav-item nav-link">Exterior</a>
                     <a href="interior" class="nav-item nav-link">Interior</a>
                     <a href="specs" class="nav-item nav-link">Specs</a>
+                    <a href="contact" class="nav-item nav-link">Contact</a>
                 </div>
             </div>
         </div>
