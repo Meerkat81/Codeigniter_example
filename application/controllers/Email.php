@@ -1,9 +1,10 @@
 <?php
 
 /*
- * Your comment header here.
- */
-
+Name: Casey Meurer
+Coding 08
+Purpose: Email controller
+*/
 
 // this protects your controllers from direct access
 defined('BASEPATH') OR exit('Forbidden');
@@ -34,7 +35,7 @@ class Email extends CI_Controller {
     public function send() {
         /* uncomment this next line to see if you're getting
          * the post vars correctly */
-        //var_dump($this->input->post());
+        var_dump($this->input->post());
 
         /*
          * Remove the code below and complete the controller here.
