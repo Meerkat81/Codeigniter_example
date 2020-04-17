@@ -12,6 +12,7 @@ class Pages extends CI_Controller{
 
         if($page == 'contact'){
             $data['contactjs'] = $this->parser->parse('templates/contact',[],TRUE);
+            $data['contactcss'] =$this->parser->parse('templates/contactcss',[],TRUE);
         } else {
             $data['contactjs'] = "";
         }
