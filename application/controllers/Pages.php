@@ -7,6 +7,13 @@ class Pages extends CI_Controller{
         {
             show_404();
         }
+
+        if($page == 'contact'){
+            $data['contactjs'] = '<script src="/assets/js/contact.js"></script>';
+        } else {
+            $data['contactjs'] = "";
+        }
+
         $data['title'] = ucfirst($page);
 
         $this->load->view('templates/header', $data);
