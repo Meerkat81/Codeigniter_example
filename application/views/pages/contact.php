@@ -27,14 +27,12 @@ Purpose: Contact Page
                 </div>
                 <div class="form-group row">
                     <div class="col-sm-10">
-                        <input type="text" id="subject" name="subject" class="form-control" placeholder="Subject"
-                                   maxlength="64">
+                        <input type="text" id="subject" name="subject" class="form-control" placeholder="Subject" maxlength="64">
                     </div>
                 </div>
                 <div class="form-group row">
                     <div class="col-sm-10">
-                        <textarea  id="message" name="message" class="form-control" placeholder="Your Message"
-                                       columns="50" rows="10" maxlength="1000" ></textarea>
+                        <textarea  id="message" name="message" class="form-control" placeholder="Your Message" columns="50" rows="10" maxlength="1000" ></textarea>
                     </div>
                 </div>
                 <div class="form-group row">
@@ -46,4 +44,3 @@ Purpose: Contact Page
             </form>
         </div>
     </div>
-    </script>
