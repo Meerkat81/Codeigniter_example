@@ -14,6 +14,7 @@ Purpose: Header template
 
         <title><?= $title ?></title>
         <link href="assets/css/main.css" type="text/css" rel="stylesheet" />
+        <?= $contactcss; ?>
         <link href="assets/css/bootstrap.min.css" type="text/css" rel="stylesheet">
     </head>
     <body>
