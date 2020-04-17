@@ -14,10 +14,11 @@ $.fn.validEmail = function (email) {
 
 $.fn.sendForm = function(){
     var formValues = $("form").serialize();
-    console.log(formValues);
+    //console.log(formValues);
     $.post('sendemail', formValues, function (data) {
+        //console.log(data)
         if (data != "okay") {
-            $("#msg").html("Try again later");
+            $("#msg").html("Try again later!");
         }else{
             $("#msg").html("Sent!")
         }
