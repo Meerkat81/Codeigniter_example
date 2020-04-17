@@ -1,6 +1,6 @@
 <!--
 Name: Casey Meurer
-Coding 07
+Coding 08
 Purpose: interior photo gallery
 -->
 <div class="row">

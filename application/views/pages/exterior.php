@@ -1,6 +1,6 @@
 <!--
 Name: Casey Meurer
-Coding 07
+Coding 08
 Purpose: exterior photo carousel
 -->
 <!-- taken from tutorial republic -->
