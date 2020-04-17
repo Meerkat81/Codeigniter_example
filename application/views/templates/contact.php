@@ -1,1 +1,1 @@
-<script src="/assets/js/contact.js"></script>
+<script src="assets/js/contact.js"></script>
