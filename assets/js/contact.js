@@ -15,7 +15,7 @@ $.fn.validEmail = function (email) {
 $.fn.sendForm = function(){
     var formValues = $("form").serialize();
     console.log(formValues);
-    $.post("./email.php", formValues, function (data) {
+    $.post('sendemail', formValues, function (data) {
         if (data != "okay") {
             $("#msg").html("Try again later");
         }else{
@@ -83,7 +83,7 @@ $.fn.validate = function() {
 //JQuary Send
 $(document).ready(function () {
     $('#send').click(function () {
-        //var msgArea = $('#msg');
+        var msgArea = $('#msg');
         var msg = $(this).validate();
         if (msg === ""){
             $('#msg').html('Sending......');
