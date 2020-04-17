@@ -15,6 +15,7 @@ class Pages extends CI_Controller{
             $data['contactcss'] =$this->parser->parse('templates/contactcss',[],TRUE);
         } else {
             $data['contactjs'] = "";
+            $data['contactcss'] = "";
         }
 
         $data['title'] = ucfirst($page);
