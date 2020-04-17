@@ -8,8 +8,10 @@ class Pages extends CI_Controller{
             show_404();
         }
 
+        $this->load->library('parser');
+
         if($page == 'contact'){
-            $data['contactjs'] = '<script src="/assets/js/contact.js"></script>';
+            $data['contactjs'] = $this->parser->parse('templates/contact',[],TRUE);
         } else {
             $data['contactjs'] = "";
         }
@@ -19,5 +21,7 @@ class Pages extends CI_Controller{
         $this->load->view('templates/header', $data);
         $this->load->view('pages/'.$page, $data);
         $this->load->view('templates/footer', $data);
+
+
     }
 }
