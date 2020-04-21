@@ -16,7 +16,7 @@ Purpose: Header template
         <link href="assets/css/main.css" type="text/css" rel="stylesheet" />
         <?= $contactcss; ?>
         <link href="assets/css/bootstrap.min.css" type="text/css" rel="stylesheet">
-        <link rel="shortcut icon" href="favicon.ico" type="image/ico">
+        <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/ico">
     </head>
     <body>
     <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-3">
