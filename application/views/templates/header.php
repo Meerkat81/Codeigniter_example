@@ -12,9 +12,10 @@ Purpose: Header template
 
 
 
-        <title><?= $title ?></title>
+        <title><?= $pagetitle ?></title>
         <link href="assets/css/main.css" type="text/css" rel="stylesheet" />
         <?= $contactcss; ?>
+        <?= $storiescss; ?>
         <link href="assets/css/bootstrap.min.css" type="text/css" rel="stylesheet">
         <link href="favicon.gif" rel="icon" type="image/gif">
     </head>
@@ -32,6 +33,7 @@ Purpose: Header template
                     <a href="interior" class="nav-item nav-link">Interior</a>
                     <a href="specs" class="nav-item nav-link">Specs</a>
                     <a href="contact" class="nav-item nav-link">Contact</a>
+                    <a href="stories" class="nav-item nav-link active">Stories</a>
                 </div>
             </div>
         </div>
