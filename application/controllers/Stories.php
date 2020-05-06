@@ -19,6 +19,7 @@ class Stories extends CI_Controller {
          * the page without an error.*/
         $data['contactjs'] = "";
         $data['contactcss'] = "";
+
         /*
          * this next line will retrieve the stories from the database. it is
          * commented out because you have to write the method in the model first.
@@ -31,7 +32,13 @@ class Stories extends CI_Controller {
          * you will need to parse and put through templates to send to the page
          * this is just a debug line. do not leave it in your finished code.
          */
-        print_r($stories);
+        /*for($i = 0; $i < count($stories); $i++){
+
+            print_r($stories[$i]['title']);
+            print_r($stories[$i]['id']);
+
+        }*/
+
 
         /*
          * THIS IS THE HARD PART
@@ -56,10 +63,25 @@ class Stories extends CI_Controller {
          * there are 5 stories in the database, but you cannot count on that! you have to make
          * a general solution that will work if the number of stories change
          */
-        
-        $this->load->view('templates/header', $data);
-        $this->load->view('pages/stories'); // <-- you need to make this page!
-        $this->load->view('templates/footer');
+
+        $temp = '';
+        for($i = 0; $i < count($stories); $i++){
+            if($stories[$i]['type']== '1') {
+                //Important Story
+                $temp .= $this->parser->parse('templates/storiestemplateimportant', $stories[$i], TRUE);
+            }
+            else{
+
+                $temp .= $this->parser->parse('templates/storiestemplate', $stories[$i], TRUE);
+            }
+        }
+        $data['pagetitle'] = 'Stories';
+        $data['storytime'] = $temp;
+        $data['storiescss'] = $this->parser->parse('templates/storiescss',[],TRUE);
+
+        $this->load->view('templates/header',$data);
+        $this->load->view('pages/stories', $data); // <-- you need to make this page!
+        $this->load->view('templates/footer', $data);
     }
 
 }
