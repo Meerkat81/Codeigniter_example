@@ -1,1 +1,1 @@
-<p class="important">{title} --- {story}</p>
+<p id="important">{title} --- {story}</p>
