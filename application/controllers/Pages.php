@@ -8,17 +8,22 @@ class Pages extends CI_Controller{
             show_404();
         }
 
-        $this->load->library('parser');
 
         if($page == 'contact'){
             $data['contactjs'] = $this->parser->parse('templates/contact',[],TRUE);
             $data['contactcss'] =$this->parser->parse('templates/contactcss',[],TRUE);
+
         } else {
             $data['contactjs'] = "";
             $data['contactcss'] = "";
+
         }
 
-        $data['title'] = ucfirst($page);
+
+        $data['storiescss'] = "";
+
+
+        $data['pagetitle'] = ucfirst($page);
 
         $this->load->view('templates/header', $data);
         $this->load->view('pages/'.$page, $data);
