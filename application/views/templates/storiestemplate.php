@@ -1,2 +1,1 @@
-
-<p>{title} --- {story}<p/>
+<p>{title} --- {story}</p>
