@@ -1,0 +1,1 @@
+<p class="important">{title} --- {story}</p>

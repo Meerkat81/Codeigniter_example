@@ -1,1 +1,2 @@
-<?php
+
+<p>{title} --- {story}<p/>
