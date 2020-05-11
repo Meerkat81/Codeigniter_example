@@ -34,6 +34,7 @@ Purpose: Header template
                     <a href="specs" class="nav-item nav-link">Specs</a>
                     <a href="contact" class="nav-item nav-link">Contact</a>
                     <a href="stories" class="nav-item nav-link active">Stories</a>
+                    <a href="API" class="nav-item nav-link active">API</a>
                 </div>
             </div>
         </div>
