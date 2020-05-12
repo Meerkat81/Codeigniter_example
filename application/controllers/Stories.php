@@ -19,7 +19,7 @@ class Stories extends CI_Controller {
          * the page without an error.*/
         $data['contactjs'] = "";
         $data['contactcss'] = "";
-
+        $data['APIjs'] = "";
         /*
          * this next line will retrieve the stories from the database. it is
          * commented out because you have to write the method in the model first.
