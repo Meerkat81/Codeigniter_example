@@ -19,7 +19,7 @@ class Pages extends CI_Controller{
 
         }
 
-        if($page == 'API'){
+        if($page == 'Vin'){
             $data['APIjs'] = $this->parser->parse('templates/APIJS',[],TRUE);
         } else{
             $data['APIjs'] = "";
